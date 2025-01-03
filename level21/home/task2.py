@@ -1,0 +1,11 @@
+nums = ['10', '20', '30','40', '50', '60', '70', '80', '90']
+nums.append('100')
+print(nums)
+nums.insert(0,'5')
+print(nums)
+nums.remove('30')
+print(nums)
+nums.reverse()
+print(nums)
+print(nums.index('50'))
+print(nums.count('20'))

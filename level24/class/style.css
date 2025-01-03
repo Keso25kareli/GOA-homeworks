@@ -1,0 +1,15 @@
+button{
+    color: blue;
+}
+
+.like-2{
+    color: brown;
+}
+
+.like-3{
+    color: blueviolet;
+}
+
+#other .like-2{
+    color: yellow;
+}
