@@ -1,0 +1,66 @@
+
+/*text-transform აქვს სამი მნიშნელობა
+uppercase-ადიდებს ასოებს
+lowercase-აპატარავებს ასოებს
+capitalize-ყოველი სიტყვის პირველ ასოს ადიდებს
+*/
+
+
+h1{
+    color: blue;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+h1{
+    color: blueviolet;
+    font-family: cursive;
+    text-transform: lowercase;
+}
+h1{
+    color: blueviolet;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+
+
+/* text-decoration 
+underline-ტექსტს უკეთებს ქვედა ხაზს
+overline-ტექსტს უკეთებბს ზედა ხაზს
+line-through-ტექსტს შუაში უკეთებს ხაზს
+
+*/
+h1{color: blueviolet;
+    font-family: cursive;
+    text-transform: capitalize;
+    text-decoration: underline;
+
+}
+h1{color: blueviolet;
+    font-family: cursive;
+    text-transform: capitalize;
+    text-decoration: overline;
+}
+h1{
+    color: blueviolet;
+    font-family: cursive;
+    text-transform: capitalize;
+    text-decoration: line-through;
+
+}
+/*text-shadow აკეთებს ტექსტის ჩრდილს*/
+h1{
+    color: blueviolet;
+    font-family: cursive;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-shadow: 10px 5px 13px chartreuse;
+
+}
+
+/*text-align უცვლის ადგილს ტექსტს*/
+h1{color: blueviolet;
+    font-family: cursive;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: center;
+}

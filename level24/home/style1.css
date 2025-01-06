@@ -1,0 +1,32 @@
+a{
+    color: rgb(230, 170, 220);
+    font-family: cursive;
+    font-size:large;
+    font-style: italic;
+    font-weight: 400;
+} 
+
+p{
+    color: rgb(176, 147, 204);
+    font-family: cursive;
+    font-style: oblique;
+    font-size: medium;
+    font-weight: 600;
+}
+
+div{
+    color: rgb(250, 48, 48);
+    font-family: cursive;
+    font-size: large;
+    font-weight: 500;
+    font-style: normal;
+}
+
+button{
+    color: rgb(154, 154, 240);
+    font-family: cursive;
+    font-size: small;
+    font-weight: 900;
+    font-style: normal;
+    
+}

@@ -1,0 +1,5 @@
+txt =input ("enter txt :")
+print(txt.upper)
+print(txt.lower)
+print(txt.capitalize())
+print('txt'.find('hello'))
