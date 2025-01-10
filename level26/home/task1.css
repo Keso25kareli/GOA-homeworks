@@ -1,0 +1,48 @@
+header{
+    color: #c72828;
+    font-family: cursive;
+    font-size:large;
+    font-style: italic;
+    font-weight: 400;
+}
+
+nav{
+    color: #8e4545;
+    font-family: cursive;
+    font-size:small;
+    font-style: italic;
+    font-weight: 400;
+}
+
+section{
+    color: #e42323;
+    font-family: cursive;
+    font-size:small;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h2{
+    color: #570d0d;
+    font-family: cursive;
+    font-size:larger;
+    font-style: normal;
+    font-weight: 600;
+}
+
+p{
+    color: #e8b0b0;
+    font-family: cursive;
+    font-size:large;
+    font-style: italic;
+    font-weight: 400;
+}
+
+a{
+    color: #f36767;
+    font-family: cursive;
+    font-size:large;
+    font-style: italic;
+    font-weight: 400;
+}
+
