@@ -1,0 +1,21 @@
+body{
+    font-family: cursive;
+    background-color: rgb(249, 248, 248);
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    font-family: cursive;
+    font-size: medium;
+    font-weight: 600;
+    font-style: normal;
+    color: #000000;
+}
+
+.list{
+    font-style: normal;
+    font-size: small;
+    font-weight: 400;
+    color: #60d3f9;
+}
