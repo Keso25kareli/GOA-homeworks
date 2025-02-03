@@ -1,4 +1,4 @@
-x=50
+x= 30
 while x > 0:
-    print(x)
-    x -=1
+    print(30)
+    x-=2
