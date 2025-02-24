@@ -1,0 +1,95 @@
+body {
+    background-color: #f5f7fa;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background-color: white;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.card-header img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.card-body p {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.plan {
+    display: flex;
+    align-items: center;
+    background-color: #f0f4ff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.plan img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.plan-details {
+    text-align: left;
+}
+
+.plan-details p {
+    margin: 0;
+    font-size: 12px;
+    color: gray;
+}
+
+.plan a {
+    color: blue;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.payment-btn {
+    background-color: #1f4eff;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.payment-btn:hover {
+    background-color: #1738c2;
+}
+
+.cancel-btn {
+    background: none;
+    border: none;
+    color: gray;
+    font-size: 12px;
+}
+
+.cancel-btn:hover {
+    color: black;
+}

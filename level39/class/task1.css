@@ -1,0 +1,19 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    transition: transform 0.5s;
+}
+
+div:hover {
+    transform: rotateX(45deg) rotateY(45deg) scale(1.2) translate(20px, 20px);
+    background-color: red;
+}
+
+
+
+
