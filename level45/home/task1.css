@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+header p {
+    color: #777;
+}
+
+.ratings {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.rating {
+    background-color: #eee;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.review {
+    background-color: #6a0dad;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    text-align: left;
+}
+
+.review h3 {
+    margin: 0;
+}
+
+.review p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.review blockquote {
+    font-style: italic;
+}

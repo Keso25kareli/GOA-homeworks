@@ -1,0 +1,41 @@
+body {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.box {
+    font-size: medium;
+    padding: 30%;
+    margin: 50%;
+    letter-spacing: normal;
+    text-align: center;
+    width: 150px;
+    border-radius: 10px;
+    transition: transform (1.s);
+}
+
+.box1 {
+    background-color: rgb(20, 20, 18);
+    color: white;
+    display: inline-block;
+}
+
+.box2 {
+    background-color: red;
+    color: white;
+    display: block;
+}
+
+.box3 {
+    background-color: #2ecc71;
+    color: white;
+    display: inline;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}

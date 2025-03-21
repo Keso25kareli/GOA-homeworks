@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-size: cover;
+    height: 120px;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: -40px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+h2 span {
+    color: gray;
+    font-weight: normal;
+}
+
+p {
+    color: gray;
+    font-size: 14px;
+}
+
+hr {
+    margin: 15px 0;
+    border: 0;
+    height: 1px;
+    background: #eee;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.stats div {
+    text-align: center;
+}
+
+.stats h3 {
+    margin-bottom: 5px;
+}
