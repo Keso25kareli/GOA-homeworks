@@ -1,0 +1,61 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+     height: 100vh;
+    grid-template-areas: 
+        "aside header"
+        "aside main"
+        "aside sect1"
+        "aside sect2"
+        "aside sect3";
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 100px 5fr 80px;;
+   
+    gap: 5px;
+    background-color: #222;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+aside {
+    grid-area: aside;
+    background-color: #444;
+    padding: 20px;
+}
+
+header {
+    grid-area: header;
+    background-color: #666;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    grid-area: main;
+    background-color: #888;
+    padding: 20px;
+}
+
+.sect1 {
+    grid-area: sect1;
+    background-color: #999;
+    padding: 20px;
+}
+
+.sect2 {
+    grid-area: sect2;
+    background-color: #aaa;
+    padding: 20px;
+}
+
+.sect3 {
+    grid-area: sect3;
+    background-color: #bbb;
+    padding: 20px;
+}

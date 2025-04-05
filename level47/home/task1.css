@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .item {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .create {
+    background-color: #fff8d6;
+  }
+  
+  .main {
+    background-color: #7951c9;
+    color: white;
+    text-align: center;
+  }
+  
+  .main .highlight-blue {
+    color: #e9e9e9;
+  }
+  
+  .schedule {
+    background-color: #eae7fe;
+  }
+  
+  .schedule .graph {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .write {
+    background-color: #fff1a9;
+  }
+  
+  .write .box {
+    background-color: rgb(251, 251, 251);
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #cecece;
+  }
+  
+  .manage {
+    background-color: #e6dfdf;
+  }
+  
+  .post {
+    background-color: #fef4aa;
+  }
+  
+  .grow {
+    background-color: #6c6cf6;
+    color: white;
+  }
+  
+  button {
+    background-color: #ffce00;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #444;
+  }
